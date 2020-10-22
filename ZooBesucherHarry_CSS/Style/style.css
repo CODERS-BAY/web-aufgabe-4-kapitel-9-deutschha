@@ -1,0 +1,40 @@
+body{background-color: rgb(216, 159, 110);}
+body{font-style: italic;font-family: comic sans ms;}
+
+h1{background-color:rgb(143, 63, 17); color:ivory}
+h1{font-size: 36px;}
+h1:first-letter{font-size: 150%;}
+h1{float: left;width:1600px}
+
+h2::before{content: url("../image/lion2.png");}
+h2:first-letter{color: green;}
+
+
+p:first-letter{font-size: 200%;}
+
+img{;border-radius: 25%;}
+
+h3::after{content: url("../image/sloth.png")}
+
+.zoo{width: 200px; display: grid; grid-template-columns: repeat(-fill, mimax 15, 1fr)}
+
+table th, td {border:1px solid; border-style: double;border-style: dashed;}
+table{width: 100%}
+tr:nth-child(even){background-color: burlywood;}
+
+.form-group{display: flex;}
+
+.form-group{flex-basis: 50%; margin: 15px;padding:5px}
+
+label{margin-right: 1em;}
+
+input[type=time]{margin-left: 72px;}
+input[type=text]{padding-right: 10px;}
+.town{margin-left: 10px;}
+
+
+
+.liks:hover{color: floralwhite;}
+
+.zoo{margin-left: 98em; margin-bottom: 5em;position: absolute; opacity: 50%;}
+.zootxt{margin-right:20em;position:relative; color:yellowgreen}

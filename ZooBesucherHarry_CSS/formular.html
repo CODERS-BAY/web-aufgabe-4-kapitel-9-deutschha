@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang=de>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contactform</title>
+    <!--style type="text/css">
+    h1{text-align: center;font-size: 54px;font-style: oblique;}
+    body{background-color: burlywood;}
+    .form-group{display: flex;}
+    .form-group{flex-basis: 50%; margin: 15px;padding:5px}
+    label{margin-right: 1em;}
+    </style-->
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+
+    
+    <h1> <u>CONTACT - FORM</u></h1>
+
+    <img  class="zoo" src="image/Schafwolle.jpg" alt="Schafwolle">
+    <figcaption>from the sheep gang </figcaption>
+    
+    <br>
+    <br>
+    <br>
+    <form method="POST" action="Neuer Ordner/">
+        <fieldset>
+            <legend>Basic Infomation</legend>
+            <div class="form-group">
+                <label for="Vorname">First Name</label> 
+                <input name="Vorname" type="text" id="vorname" placeholder="first name"> &nbsp;&nbsp;&nbsp;
+            
+                <label  for="Nachname">Name </label> 
+                <input  name="Nachname" type="text" id="nachname" placeholder="second name">&nbsp;&nbsp;&nbsp;
+                
+                <label for="datum"> When have you visited ?</label>
+                <input name="datum" type="date" id="datum">
+            </div>
+        
+            <div class="form-group">
+                <label for="Strasse">your Street</label>
+                <input name="Strasse" type="text" id="strasse" placeholder="street">
+        
+                <label  for="hnr">Number</label>
+                <input name="hnr" type="text" id="hnr" placeholder="house no">&nbsp;&nbsp;&nbsp;
+
+                <label for="datum"> on wich time ?</label>
+                <input name="datum" type="time" id="datum">
+            </div>
+            
+            <div class="town">
+                <div class="form-group">
+                    <label  for="PLZ">Postl Code</label>
+                    <input name="PLZ" type="text" id="plz" placeholder="pc">
+                
+                </div>
+        
+                <div class="form-group">
+                <label  for="Stadt">Hometown</label>
+                <input name="Stadt" type="text" id="stadt" placeholder="City">
+                </div>
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <label for="scala" id="1">How much you enjoy our zoo? &nbsp;1</label>
+        <input name="scala" type="range" min="1" value="3"max="5">
+        <label for="scala" id="2">5</label>
+
+        <label for="select" >Your fav. animal</label>
+        <select name="select" id="select">
+        <option value="1">Wolf</option>
+        <option value="2">Red Panda</option>
+        <option value="3">Elk</option>
+        <option value="4">The Sheep Gang</option>
+        </select>
+        <p>In wich formation you visit us?</p>
+
+        
+        <input name="radio" type="radio" id="single">
+        <label  for="single">Single</label>
+        
+        <input name="radio" type="radio" id="fam">
+        <label  for="fam">Faamily</label>
+        
+        <input name="radio" type="radio" id="group">
+        <label  for="gruppe">Group of individuals</label>
+        
+        <input name="radio" type="radio" id="oth">
+        <label  for="oth">Others</label>
+        <br>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Your Contribution</legend>
+            <label for="mail">Your EMail :</labe>
+            <input name="mail" type="email" id="email" placeholder="mailadress">
+            <br>
+            <br>    
+            <label for="zustext">Anything Else? Let us know...</label>
+            <br>
+            <textarea rows="5" cols="60" name="zustext" id="zustext"></textarea>
+            <a class="liks" style="margin-left: 90em;" href="Zoo_und_Besucher_Harry.html" > Back to Mainpage </a>
+        </fieldset>
+        <br>
+        <br> 
+        <label for="senden">Let it fly...</label>
+        <input name="senden" type="submit" value="Go GO GO . . ">
+    </form>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
+
+
+
